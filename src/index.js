@@ -1,3 +1,5 @@
+//importando la conexion a mongo
+import './database.js'
 //import  de express
 import express from 'express';
 //instancia de express
@@ -12,5 +14,5 @@ app.get('/', (req, res) => {
 
 //en el puerto q corre la app
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+    console.log(`Servidor escuchando en el puerto ${port}`)
 });

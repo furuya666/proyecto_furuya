@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,9 @@
   "homepage": "https://github.com/furuya666/proyecto_furuya#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.20"
   }
 }
