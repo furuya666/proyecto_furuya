@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 const analistaSchema = mongoose.Schema({
     nombre: String,
     telefono: String,
-    correo: email,
+    correo: String,
     celular: String
 
 });
